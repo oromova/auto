@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .active {
-  color: blue;
+  color: red;
 }
 
 /* loading */
