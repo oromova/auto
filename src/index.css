@@ -108,8 +108,15 @@ body{
 }
 /* headerbg */
 .formbg{
-  background:linear-gradient(90deg,#353535e9,#242425,#131315bc);
+  background:linear-gradient(90deg,#353535e9,#242425,#131315bc,#000000bc);
 }
+@media screen and (max-width: 1100px){
+  .formbg{
+    background: none;
+  }
+  
+}
+
 .headerbg::before , .headerbg::after{
   content: '';
   position: absolute;
@@ -118,7 +125,7 @@ body{
   background: linear-gradient(90deg,#7f0202,#630202,#105304,#043f17,#105304,#630202,#7f0202);
   background-size: 200%;
   width: calc(100%);
-  height: calc(82px);
+  height: calc(102px);
   z-index: -2;
   animation: animate 20s linear infinite;
 
@@ -142,10 +149,10 @@ body{
   position: absolute;
   left: 0px;
   top: -2px;
-  background: linear-gradient(90deg,#000000,#150202,#200202,#2f0202,#200202,#150202,#000000);
+  background: linear-gradient(90deg,#000000,#150202,#200202,#370404,#200202,#150202,#000000);
   background-size: 200%;
   width: calc(100%);
-  height: calc(82px);
+  height: calc(101px);
   z-index: -1;
   animation: animate 20s linear infinite;
 
