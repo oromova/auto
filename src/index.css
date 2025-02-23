@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .active {
-  color: blue;
+  color:blue;
 }
 
 /* loading */
@@ -102,3 +102,65 @@
     opacity: 0;
   }
 }
+
+body{
+  background-color:#101828;
+}
+/* headerbg */
+.formbg{
+  background:linear-gradient(90deg,#353535e9,#242425,#131315bc);
+}
+.headerbg::before , .headerbg::after{
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: -2px;
+  background: linear-gradient(90deg,#7f0202,#630202,#105304,#043f17,#105304,#630202,#7f0202);
+  background-size: 200%;
+  width: calc(100%);
+  height: calc(82px);
+  z-index: -2;
+  animation: animate 20s linear infinite;
+
+}
+@keyframes animate{
+  0%{
+      background-position: 0 0;
+  }
+  50%{
+      background-position: 400% 0;
+  }
+  100%{
+      background-position: 0 0;
+  }
+}
+.headerbg::after{
+  filter: blur(10px);
+} 
+.headerbgtop::before , .headerbgtop::after{
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: -2px;
+  background: linear-gradient(90deg,#000000,#150202,#200202,#2f0202,#200202,#150202,#000000);
+  background-size: 200%;
+  width: calc(100%);
+  height: calc(82px);
+  z-index: -1;
+  animation: animate 20s linear infinite;
+
+}
+@keyframes animate{
+  0%{
+      background-position: 0 0;
+  }
+  50%{
+      background-position: 400% 0;
+  }
+  100%{
+      background-position: 0 0;
+  }
+}
+.headerbgtop::after{
+  filter: blur(0px);
+} 
