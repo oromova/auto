@@ -160,7 +160,7 @@ function Header() {
         {/* menu navbar  */}
         {
           menu ?
-              <div className="h-[80vh] absolute top-[100px] right-2 rounded-2xl w-[300px] flex items-start p-5 bg-[#00000062]">
+              <div className="h-[80vh] absolute top-[100px] right-2 rounded-2xl w-[300px] flex items-start p-5 bg-[#000000df]">
                     <nav className=" w-full h-full flex flex-col items-start gap-5  rounded-2xl ">
                       <ul className=" flex flex-col items-start gap-5">
                         <li>
