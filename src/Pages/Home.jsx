@@ -2,6 +2,7 @@ import React from "react";
 import CarSlider from "../Carslider/Carslider";
 import { MdNavigateNext } from "react-icons/md";
 import { HiMiniArrowLongRight } from "react-icons/hi2";
+import Brand from "./Brand";
 
 function Home() {
   return (
@@ -31,6 +32,7 @@ function Home() {
           <HiMiniArrowLongRight className="text-5xl cursor-pointer text-white"/>
           </div>
         </div>
+        <Brand/>
       </div>
     </>
   );

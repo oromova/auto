@@ -127,7 +127,7 @@ body{
   background-size: 200%;
   width: calc(100%);
   height: calc(102px);
-  z-index: -2;
+  z-index: 1;
   animation: animate 20s linear infinite;
 
 }
@@ -154,7 +154,7 @@ body{
   background-size: 200%;
   width: calc(100%);
   height: calc(101px);
-  z-index: -1;
+  z-index: 2;
   animation: animate 20s linear infinite;
 
 }
@@ -172,3 +172,8 @@ body{
 .headerbgtop::after{
   filter: blur(0px);
 } 
+
+/* BRAND bacround */
+.sviperslide{
+  background:linear-gradient(135deg,#212125bc,#181819bc,#030516bc);
+}

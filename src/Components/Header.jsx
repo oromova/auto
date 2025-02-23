@@ -17,7 +17,7 @@ function Header() {
   return (
     <header className="headerbg">
       <div className="headerbgtop">
-        <div className="max-w-[1240px] h-[100px] mx-auto px-5 flex items-center justify-between relative">
+        <div className="max-w-[1240px] z-10 h-[100px] mx-auto px-5 flex items-center justify-between relative">
             {/* Search */}
             <div className="flex items-center gap-1">
               <button className="w-[25px] h-[25px] rounded-[14px]">
@@ -160,7 +160,7 @@ function Header() {
         {/* menu navbar  */}
         {
           menu ?
-              <div className="h-[80vh] absolute top-[100px] right-2 rounded-2xl w-[300px] flex items-start p-5 bg-[#000000df]">
+              <div className="h-[80vh] z-20 absolute top-[100px] right-2 rounded-2xl w-[300px] flex items-start p-5 bg-[#000000df]">
                     <nav className=" w-full h-full flex flex-col items-start gap-5  rounded-2xl ">
                       <ul className=" flex flex-col items-start gap-5">
                         <li>
