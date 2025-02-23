@@ -39,7 +39,92 @@ function Header() {
             </div>
             {/* Navbar */}
             <nav className="">
-
+              <ul className="flex items-center gap-5">
+                <li className="">
+                  <NavLink 
+                    to="/"
+                     className={({ isActive }) =>
+                      `relative text-lg fond-normal pb-1 transition-all duration-300 
+                      after:content-[''] after:absolute after:left-1/2 after:bottom-0 
+                      after:w-0 after:h-[1px] after:bg-red-500 after:rounded-full 
+                      after:transition-all after:duration-500 hover:after:w-full hover:after:left-0 
+                      ${isActive ? "active" : "text-gray-100 hover:text-white"}`
+                    }
+                     >
+                    CARS
+                  </NavLink>
+                </li>
+                <li className="">
+                  <NavLink 
+                      to="/brand"  
+                      className={({ isActive }) =>
+                        `relative text-lg fond-normal pb-1 transition-all duration-300 
+                        after:content-[''] after:absolute after:left-1/2 after:bottom-0 
+                        after:w-0 after:h-[1px] after:bg-red-500 after:rounded-full 
+                        after:transition-all after:duration-500 hover:after:w-full hover:after:left-0 
+                        ${isActive ? "active" : "text-gray-100 hover:text-white"}`
+                      }
+                      >
+                    BRAND
+                  </NavLink>
+                </li>
+                <li className="">
+                  <NavLink 
+                    to="/service"
+                    className={({ isActive }) =>
+                      `relative text-lg fond-normal pb-1 transition-all duration-300 
+                      after:content-[''] after:absolute after:left-1/2 after:bottom-0 
+                      after:w-0 after:h-[1px] after:bg-red-500 after:rounded-full 
+                      after:transition-all after:duration-500 hover:after:w-full hover:after:left-0 
+                      ${isActive ? "active" : "text-gray-100 hover:text-white"}`
+                    }
+                    >
+                    SERVISE
+                  </NavLink>
+                </li>
+                <li className="">
+                  <NavLink
+                    to="/aboutus"
+                    className={({ isActive }) =>
+                      `relative text-lg fond-normal pb-1 transition-all duration-300 
+                      after:content-[''] after:absolute after:left-1/2 after:bottom-0 
+                      after:w-0 after:h-[1px] after:bg-red-500 after:rounded-full 
+                      after:transition-all after:duration-500 hover:after:w-full hover:after:left-0 
+                      ${isActive ? "active" : "text-gray-100 hover:text-white"}`
+                    }
+                    >
+                    ABOUT US
+                  </NavLink>
+                </li>
+                <li className="">
+                  <NavLink
+                    to="/contacts"
+                    className={({ isActive }) =>
+                      `relative text-lg fond-normal pb-1 transition-all duration-300 
+                      after:content-[''] after:absolute after:left-1/2 after:bottom-0 
+                      after:w-0 after:h-[1px] after:bg-red-500 after:rounded-full 
+                      after:transition-all after:duration-500 hover:after:w-full hover:after:left-0 
+                      ${isActive ? "active" : "text-gray-100 hover:text-white"}`
+                    }
+                    >
+                    CONTACTS
+                  </NavLink>
+                </li>
+                <li className="">
+                  <NavLink
+                    to="/blog"
+                    className={({ isActive }) =>
+                      `relative text-lg fond-normal pb-1 transition-all duration-300 
+                      after:content-[''] after:absolute after:left-1/2 after:bottom-0 
+                      after:w-0 after:h-[1px] after:bg-red-500 after:rounded-full 
+                      after:transition-all after:duration-500 hover:after:w-full hover:after:left-0 
+                      ${isActive ? "active" : "text-gray-100 hover:text-white"}`
+                    }
+                    >
+                    BLOG
+                  </NavLink>
+                </li>
+              </ul>
             </nav>
         </div>
       </div>
