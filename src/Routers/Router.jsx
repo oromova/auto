@@ -7,7 +7,7 @@ import AboutUs from "../Pages/AboutUs";
 import Contacts from "../Pages/Contacts";
 import Blog from "../Pages/Blog";
 import Service from "../Pages/Service";
-import Home from "../Pages/Home/Home";
+import Home from "../Pages/Home";
 
 
 export const Router = createBrowserRouter([
