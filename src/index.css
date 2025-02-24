@@ -177,3 +177,6 @@ body{
 .sviperslide{
   background:linear-gradient(135deg,#212125bc,#181819bc,#030516bc);
 }
+.sviperslide:hover{
+  background:linear-gradient(135deg,#2a2a2ebc,#13151bbc);
+}

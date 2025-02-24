@@ -29,20 +29,26 @@ function Brand() {
       <h2 className="text-5xl text-white font-medium pb-5">Brand</h2>
     <Swiper
       modules={[Autoplay, Navigation]}
-      loop={categories.length > 6} // Slayd yetarli bo'lsa loop yoqiladi
+      loop={categories.length > 6}
       slidesPerView={Math.min(categories.length, 6)} 
       centeredSlides={false}
       spaceBetween={20}
-      autoplay={{ delay: 1000, disableOnInteraction: false }}
+      autoplay={{ delay: 800, disableOnInteraction: false }}
       onSwiper={(swiper) => (swiperRef.current = swiper)}
       onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
       breakpoints={{
-        601: { slidesPerView: 6 },
+        1050: { slidesPerView: 6 },
+        850: { slidesPerView: 5 },
+        701: { slidesPerView: 4 },
+        550: { slidesPerView: 3 },
+        450: { slidesPerView: 2 },
+        400: { slidesPerView: 1 },
       }}
     >
       {categories.map((category) => (
         <SwiperSlide key={category.id}>
-          <div className="sviperslide w-[100%] h-[210px] flex flex-col mt-5 justify-center items-center rounded-md pb-3">
+         <div className="fex flex-col">
+          <div className="sviperslide w-[100%] h-[210px] border border-[#312f2ffe] hover:border-[#ff000073] flex flex-col mt-5 justify-center items-center rounded-md pb-3">
             <div className="w-[80px] h-[80px] rounded-md ">
               <img
                 className="w-full h-full object-cover rounded-md"
@@ -50,29 +56,11 @@ function Brand() {
                 alt={category.title}
               />
             </div>
-            <h2 className="text-white text-center text-xl font-medium py-3 hover:text-[#03e2ff]">
+            <h2 className="text-[#878787] text-center text-xl font-medium py-3 hover:text-[red]">
               {category.title}
             </h2>
           </div>
-        </SwiperSlide>
-      ))}
-    </Swiper>
-    <Swiper
-      modules={[Autoplay, Navigation]}
-      loop={categories.length > 6} 
-      slidesPerView={Math.min(categories.length, 6)} 
-      centeredSlides={false}
-      spaceBetween={20}
-      autoplay={{ delay: 1000, disableOnInteraction: false }}
-      onSwiper={(swiper) => (swiperRef.current = swiper)}
-      onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
-      breakpoints={{
-        601: { slidesPerView: 6 },
-      }}
-    >
-      {categories.map((category) => (
-        <SwiperSlide key={category.id}>
-          <div className="sviperslide w-[100%] h-[210px] flex flex-col mt-5 justify-center items-center rounded-md pb-3 ">
+          <div className="sviperslide w-[100%] h-[210px] border border-[#312f2ffe] hover:border-[#ff000073] mt-4 flex flex-col justify-center items-center rounded-md pb-3">
             <div className="w-[80px] h-[80px] rounded-md ">
               <img
                 className="w-full h-full object-cover rounded-md"
@@ -80,10 +68,11 @@ function Brand() {
                 alt={category.title}
               />
             </div>
-            <h2 className="text-white text-center text-xl font-medium py-3 hover:text-[#03e2ff]">
+            <h2 className="text-[#878787] text-center text-xl font-medium py-3 hover:text-[red]">
               {category.title}
             </h2>
           </div>
+         </div>
         </SwiperSlide>
       ))}
     </Swiper>
