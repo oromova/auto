@@ -1,7 +1,8 @@
-import React from "react";
+import React from 'react'
 import CarSlider from "../Carslider/Carslider";
 import { MdNavigateNext } from "react-icons/md";
 import { HiMiniArrowLongRight } from "react-icons/hi2";
+import Faq from './Faq.jsx'
 
 function Home() {
   return (
@@ -30,7 +31,9 @@ function Home() {
           <HiMiniArrowLongRight className="text-5xl cursor-pointer text-white rotate-180"/>
           <HiMiniArrowLongRight className="text-5xl cursor-pointer text-white"/>
           </div>
+         
         </div>
+        <Faq/>
       </div>
     </>
   );

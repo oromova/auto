@@ -42,7 +42,7 @@ function Header() {
             {/* Logo */}
             <div className="w-[100px] h-[37px] ">
               <img src={Logo} alt="Logo" className="w-full h-full" />
-              {/* <h2 className="text-red-600 text-xl text-center font-bold">A U T O</h2> */}
+              <h2 className="text-red-600 text-xl text-center font-bold">A U T O</h2>
             </div>
             {/* Navbar */}
             <nav className="flex flex-col items-end gap-5 max-[1100px]:hidden" >
