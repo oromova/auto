@@ -3,7 +3,7 @@ import '../index.css'
 
 const Loading = () => {
   return (
-    <div id='loading-screen'  class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    <div id='loading-screen'  className="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
   );
 };
 

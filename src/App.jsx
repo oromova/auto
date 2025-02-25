@@ -2,8 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Loading from './Components/Loading';
 import Header from './Components/Header';
 import { Outlet } from 'react-router-dom';
-import Footer from './Components/Footer';
-import Home from './Pages/Home';
+import Footer from './Components/Footer'
 
 function App() {
   const [loading, setLoading] = useState(true);

@@ -2,7 +2,6 @@ import React from 'react'
 import CarSlider from "../Carslider/Carslider";
 import { MdNavigateNext } from "react-icons/md";
 import { HiMiniArrowLongRight } from "react-icons/hi2";
-import Faq from './Faq.jsx'
 
 function Home() {
   return (
@@ -33,7 +32,6 @@ function Home() {
           </div>
          
         </div>
-        <Faq/>
       </div>
     </>
   );
