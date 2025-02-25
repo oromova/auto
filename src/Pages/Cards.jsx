@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { GoStar, GoStarFill } from "react-icons/go";
 import axios from 'axios';
 
-function Cards() {
+export function Cards() {
   const [brands, setBrands] = useState([]);
   const [loading, setLoading] = useState(false);
   const [favorites, setFavorites] = useState({}); // Tugma holati uchun
