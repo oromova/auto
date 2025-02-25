@@ -178,7 +178,7 @@ function Header() {
                         </li>
                         <li>
                           <NavLink 
-                            to="/"
+                            to="/cars"
                              className={({ isActive }) =>
                               `relative text-lg fond-normal pb-1 transition-all duration-300 
                               after:content-[''] after:absolute after:left-1/2 after:bottom-0 
