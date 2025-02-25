@@ -6,7 +6,7 @@ import Brand from "../Pages/Brand";
 import AboutUs from "../Pages/AboutUs";
 import Contacts from "../Pages/Contacts";
 import Blog from "../Pages/Blog";
-import Service from "../Pages/Service";
+// import Services from "../Pages/Service";
 import Home from "../Pages/Home";
 
 
@@ -28,10 +28,10 @@ export const Router = createBrowserRouter([
         path: "/brand",
         element: <Brand/>
       },
-      {
-        path: "/service",
-        element: <Service/>
-      },
+      // {
+      //   path: "/service",
+      //   element: <Service/>
+      // },
       {
         path: "/aboutus",
         element: <AboutUs/>

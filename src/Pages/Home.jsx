@@ -1,15 +1,26 @@
-import React from "react";
+import React from 'react';
 import CarSlider from "../Carslider/Carslider";
 import { MdNavigateNext } from "react-icons/md";
 import { HiMiniArrowLongRight } from "react-icons/hi2";
+<<<<<<< HEAD
 import Brand from "./Brand";
+=======
+import Brand from './Brand';
+import Cards from './Cards';
+import Services from './Services';
+import Rental from './Rental';
+import Supercar from './Supercar';
+import Faq from './Faq';
+import About from './About';
+import Footer from '../Components/Footer';
+>>>>>>> fe02fd9e9a0015fe4a77b56d3f06f427027037ec
 
 function Home() {
   return (
     <>
       <div className="">
         <div className="container h-[100vh] flex flex-col px-4 justify-around">
-          <div className="">
+          <div className="pb-[90px]">
             <h1 className=" pb-8 text-center text-4xl font-medium text-white max-[500px]:text-3xl">
               TOP LUXURY CAR RENTAL IN THE EMIRATES №1
             </h1>
@@ -28,11 +39,23 @@ function Home() {
           </div>
           <CarSlider />
           <div className=" flex justify-center mt-[-80px] gap-100">
-          <HiMiniArrowLongRight className="text-5xl cursor-pointer text-white rotate-180"/>
-          <HiMiniArrowLongRight className="text-5xl cursor-pointer text-white"/>
+            <HiMiniArrowLongRight className="text-5xl cursor-pointer text-white rotate-180" />
+            <HiMiniArrowLongRight className="text-5xl cursor-pointer text-white" />
           </div>
+
         </div>
+<<<<<<< HEAD
         <Brand/>
+=======
+        <Brand />
+        <Services/>
+        <About/>
+        <Cards />
+        <Rental/>
+        <Supercar/>
+        <Faq/>
+        <Footer/>
+>>>>>>> fe02fd9e9a0015fe4a77b56d3f06f427027037ec
       </div>
     </>
   );
