@@ -1,12 +1,11 @@
 import axios from "axios";
 import React, { useEffect, useState, useRef } from "react";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 
-function Brand() {
+export function Brand() {
   const url = "https://realauto.limsa.uz/api/brands";
   const [categories, setCategories] = useState([]);
   const imgUrl = "https://realauto.limsa.uz/api/uploads/images";
@@ -24,7 +23,7 @@ function Brand() {
   }, []);
 
   return (
-  <div className="bg-[#111219] ">
+  <div className="bg-[#111219]">
     <div className="max-w-[1240px] mx-auto px-5 py-8">
       <h2 className="text-5xl text-white font-medium pb-5">Brand</h2>
     <Swiper
