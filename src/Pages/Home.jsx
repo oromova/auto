@@ -4,6 +4,12 @@ import { MdNavigateNext } from "react-icons/md";
 import { HiMiniArrowLongRight } from "react-icons/hi2";
 import Brand from './Brand';
 import Cards from './Cards';
+import Services from './Services';
+import Rental from './Rental';
+import Supercar from './Supercar';
+import Faq from './Faq';
+import About from './About';
+import Footer from '../Components/Footer';
 
 function Home() {
   return (
@@ -36,6 +42,11 @@ function Home() {
         </div>
         <Brand />
         <Cards />
+        <Services/>
+        <About/>
+        <Rental/>
+        <Supercar/>
+        <Faq/>
         
       </div>
     </>

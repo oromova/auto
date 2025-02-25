@@ -3,7 +3,7 @@ import { GoArrowRight } from "react-icons/go";
 import YouTube from "react-youtube";
 import Background from "../assets/building.png";
 
-function Rental() {
+export function Rental() {
     const opts = {
         height: "400",
         width: "100%",
@@ -17,7 +17,7 @@ function Rental() {
     };
 
     return (
-        <div className="max-w-[1200px] mx-auto relative">
+        <div className="max-w-full mx-auto relative">
             <div className="grid grid-cols-1 bg-gray-950 gap-0 md:grid-cols-2 lg:grid-cols-[6fr_5fr] pt-16 relative"
             >
                 <div className="px-5 pb-16">

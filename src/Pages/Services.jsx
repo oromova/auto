@@ -3,9 +3,10 @@ import { GoArrowRight } from "react-icons/go";
 import Baggi from '../assets/baggi.jpg'
 import Rolce from '../assets/rolce-roys.jpg'
 
-function Services() {
+export function Services() {
     return (
-        <div className='max-w-[1200px] mx-auto px-5 py-[90px] bg-[#1e1f27]'>
+        <div className='bg-[#1e1f27]'>
+           <div className='max-w-full mx-auto px-5 py-[90px] '>
             <div className='grid grid-cols-1 col-start'>
                 <p className='text-[#A5A5A9] text-[16px] leading-[21px] lg:px-2 py-2'>Luxury Cars for Rent in Dubai/Service</p>
                 <h1 className='text-[#ffffff] py-[40px] text-[30px] font-bold leading-[50px] lg:px-2 lg:py-2'>SERVICES</h1>
@@ -30,7 +31,9 @@ function Services() {
                     </button>
                 </div>
             </div>
+        </div> 
         </div>
+        
     )
 }
 

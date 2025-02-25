@@ -4,7 +4,7 @@ import RCar from '../assets/right-car.png';
 
 function About() {
     return (
-        <div className="relative max-w-[1200px] h-[2000px] sm:h-[1050px] lg:h-[700px] mx-auto flex items-center justify-center text-center px-6 bg-[#0a0d1a]">
+        <div className="relative max-w-full h-[2000px] sm:h-[1050px] lg:h-[700px] mx-auto flex items-center justify-center text-center px-6 ">
             <img src={LCar} alt="Left Car" className="absolute left-0 w-[15%] object-cover opacity-30" />
             <img src={RCar} alt="Right Car" className="absolute right-0 w-[15%] object-cover opacity-30" />
             <div className="absolute inset-0 flex flex-col items-center justify-center px-8">

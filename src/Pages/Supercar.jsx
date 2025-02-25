@@ -2,9 +2,9 @@ import React from 'react'
 import { GoArrowRight } from "react-icons/go";
 import SuperC from '../assets/super-car.png'
 
-function Supercar() {
+export function Supercar() {
     return (
-        <div className='max-w-[1200px] mx-auto bg-[#101828]'>
+        <div className='max-w-full mx-auto bg-[#101828]'>
             <div className="grid grid-cols-1 md:grid-cols-2">
                 <img className='w-full max-h-[250px] h-[100%]' src={SuperC} alt="" />
                 <div className='px-7 pt-9 text-white'>
