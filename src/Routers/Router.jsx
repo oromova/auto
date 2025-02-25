@@ -1,13 +1,13 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import Error from "../Pages/Error";
-import Cars from "../Pages/Cars";
 import Brand from "../Pages/Brand";
-import AboutUs from "../Pages/AboutUs";
 import Contacts from "../Pages/Contacts";
 import Blog from "../Pages/Blog";
-// import Services from "../Pages/Service";
+import Services from "../Pages/Services";
 import Home from "../Pages/Home";
+import About from "../Pages/About";
+import Cards from "../Pages/Cards";
 
 
 export const Router = createBrowserRouter([
@@ -22,19 +22,19 @@ export const Router = createBrowserRouter([
       },
       {
         path: "/cars",
-        element: <Cars/>
+        element: <Cards/>
       },
       {
         path: "/brand",
         element: <Brand/>
       },
-      // {
-      //   path: "/service",
-      //   element: <Service/>
-      // },
+      {
+        path: "/service",
+        element: <Services/>
+      },
       {
         path: "/aboutus",
-        element: <AboutUs/>
+        element: <About/>
       },
       {
         path: "/contacts",
