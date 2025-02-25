@@ -8,6 +8,7 @@ import Contacts from "../Pages/Contacts";
 import Blog from "../Pages/Blog";
 // import Services from "../Pages/Service";
 import Home from "../Pages/Home";
+import Services from "../Pages/Services";
 
 
 export const Router = createBrowserRouter([
@@ -28,10 +29,10 @@ export const Router = createBrowserRouter([
         path: "/brand",
         element: <Brand/>
       },
-      // {
-      //   path: "/service",
-      //   element: <Service/>
-      // },
+      {
+        path: "/service",
+        element: <Services/>
+      },
       {
         path: "/aboutus",
         element: <AboutUs/>
