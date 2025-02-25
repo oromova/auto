@@ -1,14 +1,9 @@
 import axios from "axios";
 import React, { useEffect, useState, useRef } from "react";
-<<<<<<< HEAD
-
-=======
->>>>>>> fe02fd9e9a0015fe4a77b56d3f06f427027037ec
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-<<<<<<< HEAD
 
 function Brand() {
   const url = "https://realauto.limsa.uz/api/brands";
@@ -26,31 +21,8 @@ function Brand() {
       })
       .catch((err) => console.error("Error:", err));
   }, []);
-
-  return (
-  <div className="bg-[#111219] ">
-=======
-
-export function Brand() {
-  const url = "https://realauto.limsa.uz/api/brands";
-  const [categories, setCategories] = useState([]);
-  const imgUrl = "https://realauto.limsa.uz/api/uploads/images";
-  const swiperRef = useRef(null);
-  const [activeIndex, setActiveIndex] = useState(0);
-
-  useEffect(() => {
-    axios
-      .get(url)
-      .then((res) => {
-        console.log(res.data.data);
-        setCategories(res.data.data);
-      })
-      .catch((err) => console.error("Error:", err));
-  }, []);
-
   return (
   <div className="bg-[#111219]">
->>>>>>> fe02fd9e9a0015fe4a77b56d3f06f427027037ec
     <div className="max-w-[1240px] mx-auto px-5 py-8">
       <h2 className="text-5xl text-white font-medium pb-5">Brand</h2>
     <Swiper

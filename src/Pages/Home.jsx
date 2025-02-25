@@ -2,9 +2,7 @@ import React from 'react';
 import CarSlider from "../Carslider/Carslider";
 import { MdNavigateNext } from "react-icons/md";
 import { HiMiniArrowLongRight } from "react-icons/hi2";
-<<<<<<< HEAD
-import Brand from "./Brand";
-=======
+
 import Brand from './Brand';
 import Cards from './Cards';
 import Services from './Services';
@@ -13,7 +11,6 @@ import Supercar from './Supercar';
 import Faq from './Faq';
 import About from './About';
 import Footer from '../Components/Footer';
->>>>>>> fe02fd9e9a0015fe4a77b56d3f06f427027037ec
 
 function Home() {
   return (
@@ -44,9 +41,6 @@ function Home() {
           </div>
 
         </div>
-<<<<<<< HEAD
-        <Brand/>
-=======
         <Brand />
         <Services/>
         <About/>
@@ -55,7 +49,6 @@ function Home() {
         <Supercar/>
         <Faq/>
         <Footer/>
->>>>>>> fe02fd9e9a0015fe4a77b56d3f06f427027037ec
       </div>
     </>
   );
