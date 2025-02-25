@@ -5,13 +5,13 @@ import Rolce from '../assets/rolce-roys.jpg'
 
 export function Services() {
     return (
-        <div className='bg-[#1e1f27]'>
-           <div className='max-w-full mx-auto px-5 py-[90px] '>
-            <div className='grid grid-cols-1 col-start'>
+        <div className='bg-[#1e1f27] mx-auto'>
+           <div className='max-w-[1200px] mx-auto px-5 py-[90px] '>
+            <div className='grid grid-cols-1 '>
                 <p className='text-[#A5A5A9] text-[16px] leading-[21px] lg:px-2 py-2'>Luxury Cars for Rent in Dubai/Service</p>
                 <h1 className='text-[#ffffff] py-[40px] text-[30px] font-bold leading-[50px] lg:px-2 lg:py-2'>SERVICES</h1>
             </div>
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7'>
+            <div className='grid grid-cols-1 sm:grid-cols-2  gap-20'>
                 <div className='w-full'>
                     <img className='lg:px-2 py-2' src={Baggi} alt="Baggi in sahara" />
                     <h1 className='text-[26px] leading-[29px] text-[#ffffff] font-semibold py-[25px] lg:px-2 lg:py-2'>Ride a buggy in Dubai and have fun</h1>

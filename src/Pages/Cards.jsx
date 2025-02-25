@@ -33,13 +33,12 @@ function Cards() {
   };
 
   return (
-    <div className="bg-[#0F172A] min-h-screen p-10">
+    <div className="bg-[#0F172A] p-10">
       <h1 className="text-white text-3xl font-bold mb-8 text-center">Car Brands</h1>
-
       {loading ? (
         <p className="text-center text-green-400 text-2xl">Loading...</p>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 xl:grid-cols-2">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 lg:grid-cols-4">
           {brands.map((brand) => (
             <div 
               className="relative p-5 rounded-2xl shadow-lg overflow-hidden group transition-all"

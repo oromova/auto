@@ -41,13 +41,13 @@ function Home() {
 
         </div>
         <Brand />
-        <Cards />
         <Services/>
         <About/>
+        <Cards />
         <Rental/>
         <Supercar/>
         <Faq/>
-        
+        <Footer/>
       </div>
     </>
   );
