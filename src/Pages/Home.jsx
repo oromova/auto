@@ -48,7 +48,7 @@ function Home() {
         <Rental/>
         <Supercar/>
         <Faq/>
-        <Footer/>
+        
       </div>
     </>
   );
