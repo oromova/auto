@@ -163,7 +163,8 @@ function Header() {
                     <nav className=" w-full h-full flex flex-col items-start gap-5  rounded-2xl ">
                       <ul className=" flex flex-col items-start gap-5">
                         <li>
-                          <NavLink 
+                          {/* <NavLink npm run dev
+
                             to="/"
                              className={({ isActive }) =>
                               `relative text-lg fond-normal pb-1 transition-all duration-300 
@@ -174,7 +175,7 @@ function Header() {
                             }
                              >
                             HOME
-                          </NavLink>
+                          </NavLink> */}
                         </li>
                         <li>
                           <NavLink 
