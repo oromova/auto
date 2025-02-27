@@ -3,54 +3,61 @@ import App from "../App";
 import Error from "../Pages/Error";
 import Brand from "../Pages/Brand";
 import Contacts from "../Pages/Contacts";
-import Blog from "../Pages/Blog";
 import Home from "../Pages/Home";
 import Services from "../Pages/Services";
 import Cards from "../Pages/Cards";
 import AboutUs from "../Pages/AboutUs";
+import Blog from "../Pages/Blog/Blog";
+import SingleBlog from "../Pages/Blog/SingleBlog";
 
 
 export const Router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    errorElement: <Error/>,
+    errorElement: <Error />,
     children: [
       {
         path: "/",
-        element: <Home/>
+        element: <Home />
       },
       {
         path: "/cars",
-        element: <Cards/>
+        element: <Cards />
       },
       {
         path: "/brand",
-        element: <Brand/>
+        element: <Brand />
       },
       {
         path: "/service",
-        element: <Services/>
+        element: <Services />
       },
       {
         path: "/service",
-        element: <Services/>
+        element: <Services />
       },
       {
         path: "/aboutus",
-        element: <AboutUs/>
+        element: <AboutUs />
       },
       {
         path: "/contacts",
-        element: <Contacts/>
+        element: <Contacts />
       },
       {
         path: "/blog",
-        element: <Blog/>
+        element: <Blog />,
+        children: [
+        {
+          path: "/blog/singleblog",
+          element: <SingleBlog />
+        }
+        ]
       },
       {
         path: "*",
-        element: <Error/>
+        element: <Error />
       },
     ]
   }
