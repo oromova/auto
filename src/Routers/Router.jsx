@@ -5,10 +5,10 @@ import Brand from "../Pages/Brand";
 import Contacts from "../Pages/Contacts";
 import Home from "../Pages/Home";
 import Services from "../Pages/Services";
-import Cards from "../Pages/Cards";
 import AboutUs from "../Pages/AboutUs";
 import Blog from "../Pages/Blog/Blog";
 import SingleBlog from "../Pages/Blog/SingleBlog";
+import CarsPage from "../Pages/CarsPage";
 
 
 export const Router = createBrowserRouter([
@@ -23,7 +23,7 @@ export const Router = createBrowserRouter([
       },
       {
         path: "/cars",
-        element: <Cards />
+        element: <CarsPage />
       },
       {
         path: "/brand",
