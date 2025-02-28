@@ -48,12 +48,10 @@ export const Router = createBrowserRouter([
       {
         path: "/blog",
         element: <Blog />,
-        children: [
-        {
-          path: "/blog/singleblog",
-          element: <SingleBlog />
-        }
-        ]
+      },
+      {
+        path: "/blog/singleblog",
+        element: <SingleBlog />
       },
       {
         path: "*",

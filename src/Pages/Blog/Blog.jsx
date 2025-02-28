@@ -10,7 +10,7 @@ function Blog() {
     <section className='mx-auto px-[20px] pt-[30px] pb-[60px] '>
       <div>
         <NavLink to="/">
-          <p className="text-[14px] text-[#a5a5a9]">Luxury Cars for Rent in Dubai /</p>
+          <p className="text-[14px] text-[#a5a5a9]">Luxury Cars for Rent in Dubai </p>
         </NavLink>
         <h1 className='text-[#FFF] text-3xl pt-10 pl-6 uppercase'>
           Blog
